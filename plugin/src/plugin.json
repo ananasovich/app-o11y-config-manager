@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
+  "backend": true,
+  "dependencies": {
+    "grafanaDependency": "\u003e=7.0.0",
+    "plugins": []
+  },
+  "executable": "gpx_app-o11y-config-manager-app",
+  "id": "app-o11y-config-manager-app",
+  "includes": [
+    {
+      "addToNav": true,
+      "defaultNav": true,
+      "icon": "",
+      "name": "Todos",
+      "path": "/a/app-o11y-config-manager-app/",
+      "role": "Admin",
+      "slug": "app-o11y-config-manager",
+      "type": "page",
+      "uid": ""
+    }
+  ],
+  "info": {
+    "author": {
+      "name": "AUTHOR",
+      "url": ""
+    },
+    "description": "",
+    "keywords": [],
+    "links": [],
+    "logos": {
+      "large": "img/logo.svg",
+      "small": "img/logo.svg"
+    },
+    "screenshots": [],
+    "updated": "%TODAY%",
+    "version": "%VERSION%"
+  },
+  "metrics": true,
+  "name": "NAME",
+  "type": "app"
+}

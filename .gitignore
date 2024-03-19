@@ -1,0 +1,6 @@
+# Go stuff
+vendor/
+
+# Plugin/TypeScript/Node stuff
+plugin/dist
+plugin/node_modules
